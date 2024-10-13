@@ -1,0 +1,241 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.wrapper{
+    background-image: url("images/About_bg.svg");
+    background-size: cover; 
+    background-position: center; 
+}
+.nxtcontainer{
+    margin: 0;
+    color:white;
+    font-weight: 700;
+    font-style: normal ;
+    text-align: center;
+    padding:10%;
+    background-color: rgba(0, 0, 0,0.3)
+}
+.nxtcontainer h1 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+  }
+  .container a{
+    cursor: pointer;
+  }
+  .container a:hover{
+    color: orange;
+  }
+.container img {
+    margin-left: 100px;
+    height: 50px; 
+}
+.container h3 {
+    color:white;
+    font-size: small;
+    font-weight: 500;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+button {
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px; 
+    margin-right: 50px;
+    padding:10px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+.dropdown{
+    background-color: rgba(255, 165, 0,0.2);
+    color:black;
+    border: none;
+}
+.bgmerge{
+    background-color: rgba(255, 255, 255,0.2);
+    border:2px solid white;
+}
+a{
+    color: white;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+.c1 img{
+    width: 30%; 
+    height: auto;
+    flex-grow: 1;
+}
+.horizontalcont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+
+}
+.horizontalcont h4{
+    font-weight: 900;
+    margin: 0;
+}
+.horizontalcont h4{
+    margin: 0;
+}
+.tittle{
+    color:rgba(128, 128, 128,0.5);
+    font-size: small;
+}
+.stats th{
+    font-size: 30px;
+    color: orange;
+}
+.stats td{
+    color: gray;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+.one,.two,.three,.four{
+    align-items: center;
+    font-weight: 700;
+    max-width: 170px;
+    padding:5px;
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    background-color: rgba(248, 168, 20, 0.274);
+}
+.abt{
+    padding:30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    background-color: rgb(243, 207, 139);
+    text-align: center;
+}
+.abt img{
+    width: 50px;
+    height: auto;
+}
+.people{
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    gap: 10px;
+    justify-content:center;
+    margin: 0;
+}
+.con1,.con2{
+    text-align: center;
+    max-width: auto;
+    max-height: auto;
+    font-size: small;
+    width: 300px;
+}
+.con1 h5,.con2 h5{
+    margin: 0;
+    text-align: center;
+}
+.con1 img,.con2 img{
+
+    border-radius: 200px;
+    width: 50px;
+    height: auto;
+}
+.reveiwtittle{
+    padding-top:10px;
+    padding-left: 20px;
+}
+.quotel{
+    font-size: 3rem;
+    color:rgba(255, 165, 0,0.3);
+    text-align: left;
+    padding:0;
+    margin: 0;
+}
+.quoter{
+    font-size: 3rem;
+    color:rgba(255, 165, 0,0.3);
+    text-align: right;
+    padding:0;
+    margin: 0;
+}
+.btn1{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+.btn2{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.footer-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.social-icons a {
+    color: orange;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: white;
+}
+
