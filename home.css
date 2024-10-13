@@ -1,36 +1,31 @@
-
 body{
     font-family: "Roboto", sans-serif;
 
 }
+.menu{
+    text-align: center;
+}
+.nxtcontainer1{
+    color: white;
+    background-color: rgba(255, 255, 255,0.3);
+    padding: 10px;
+    margin:50px;
+}
 .container {
+    color: white;
     display: flex;
+    flex:wrap;
     align-items: center;
     gap: 20px;
     justify-content: space-between;
 }
 .wrapper{
-    background-image: url("images/About_bg.svg");
+    background-image: url("images/hero_bg.png");
     background-size: cover; 
     background-position: center; 
+    color: white;
 }
-.nxtcontainer{
-    margin: 0;
-    color:white;
-    font-weight: 700;
-    font-style: normal ;
-    text-align: center;
-    padding:10%;
-    background-color: rgba(0, 0, 0,0.3)
-}
-.nxtcontainer h1 {
-    font-family: "Dancing Script", cursive;
-    font-weight: 700;
-    font-size: 50px;
-    font-style: normal;
-  }
-  .container a{
-    text-decoration: none;
+.container a{
     cursor: pointer;
   }
   .container a:hover{
@@ -63,18 +58,41 @@ button {
     color:black;
     border: none;
 }
-.bgmerge{
-    background-color: rgba(255, 255, 255,0.2);
-    border:2px solid white;
+.nxtcontainer{
+    background-color: rgba(0, 0, 0,0.2);
+    text-align: center;
 }
-a{
-    color: white;
+.nxtcontainer h3{
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
 }
+.nxtcontainer p{
+    font-weight: 900;
+}
+.popdest{
+    margin: 0px;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    justify-content: space-evenly;
+    line-height: 1;
+   
+}
+.popdest img{
+    width:200px;
+    height:auto;
+}
+.dest{
+    padding: 50px;
+}
+
 .c1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5%;
+    padding: 0px;
 }
 .c1 img{
     width: 30%; 
@@ -93,11 +111,16 @@ a{
 
 }
 .horizontalcont h4{
+    margin-left: 50px;
+
     font-weight: 900;
     margin: 0;
 }
 .horizontalcont h4{
     margin: 0;
+}
+.description{
+    width: 400px;
 }
 .tittle{
     color:rgba(128, 128, 128,0.5);
@@ -113,31 +136,7 @@ a{
     padding-left: 30px;
 
 }
-.one,.two,.three,.four{
-    align-items: center;
-    font-weight: 700;
-    max-width: 170px;
-    padding:5px;
-    padding-left: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 20px;
-    background-color: rgba(248, 168, 20, 0.274);
-}
-.abt{
-    padding:30px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap:20px;
-    background-color: rgb(243, 207, 139);
-    text-align: center;
-}
-.abt img{
-    width: 50px;
-    height: auto;
-}
+
 .people{
     position: relative;
     padding: 30px;
@@ -239,4 +238,5 @@ footer{
 .social-icons a:hover {
     color: white;
 }
+
 
